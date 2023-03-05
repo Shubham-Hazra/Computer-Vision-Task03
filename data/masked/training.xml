@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked01.jpg' width='720' height='960'>
+    <box top='231' left='297' width='196' height='304'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked02.jpg' width='772' height='801'>
+    <box top='162' left='296' width='168' height='210'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked03.jpg' width='782' height='795'>
+    <box top='166' left='323' width='180' height='197'/>
+    <box top='267' left='328' width='1' height='1'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked04.jpg' width='752' height='960'>
+    <box top='177' left='240' width='222' height='342'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked05.jpg' width='3468' height='4624'>
+    <box top='1257' left='1454' width='883' height='1068'/>
+    <box top='1615' left='2116' width='1' height='1'>
+      <part name='0' x='2116' y='1615'/>
+      <part name='1' x='2116' y='1615'/>
+    </box>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked06.jpg' width='3468' height='4624'>
+    <box top='1166' left='1397' width='659' height='690'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked07.jpg' width='3468' height='4624'>
+    <box top='937' left='1322' width='569' height='753'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked08.jpg' width='576' height='768'>
+    <box top='218' left='153' width='246' height='381'/>
+    <box top='437' left='138' width='17' height='3'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked09.jpg' width='576' height='768'>
+    <box top='92' left='195' width='203' height='271'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked10.jpg' width='576' height='768'>
+    <box top='142' left='92' width='215' height='282'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked11.jpg' width='1200' height='1600'>
+    <box top='315' left='465' width='326' height='344'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked12.jpg' width='1200' height='1600'>
+    <box top='513' left='445' width='333' height='389'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked13.jpg' width='1200' height='1599'>
+    <box top='483' left='403' width='488' height='665'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked14.jpg' width='461' height='1024'>
+    <box top='225' left='123' width='236' height='263'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked15.jpg' width='760' height='1024'>
+    <box top='108' left='177' width='361' height='425'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked16.jpg' width='766' height='1024'>
+    <box top='349' left='267' width='244' height='317'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked17.jpg' width='577' height='1024'>
+    <box top='295' left='221' width='248' height='296'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked18.jpg' width='577' height='1024'>
+    <box top='332' left='164' width='228' height='243'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked19.jpg' width='768' height='1024'>
+    <box top='308' left='254' width='257' height='324'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked20.jpg' width='1024' height='768'>
+    <box top='248' left='255' width='342' height='243'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked21.jpg' width='576' height='768'>
+    <box top='264' left='134' width='289' height='317'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked22.jpg' width='576' height='768'>
+    <box top='177' left='243' width='128' height='135'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked23.jpg' width='1024' height='768'>
+    <box top='182' left='387' width='292' height='294'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked24.jpg' width='694' height='925'>
+    <box top='407' left='236' width='270' height='352'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked25.jpg' width='694' height='925'>
+    <box top='373' left='246' width='294' height='331'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked26.jpg' width='3408' height='2556'>
+    <box top='506' left='1100' width='1586' height='1303'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked27.jpg' width='961' height='1280'>
+    <box top='707' left='285' width='373' height='357'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked28.jpg' width='720' height='1600'>
+    <box top='702' left='57' width='598' height='744'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked29.jpg' width='900' height='1600'>
+    <box top='468' left='236' width='456' height='551'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked30.jpg' width='1200' height='1600'>
+    <box top='553' left='430' width='348' height='369'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked31.jpg' width='899' height='1599'>
+    <box top='539' left='265' width='391' height='419'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked32.jpg' width='532' height='710'>
+    <box top='227' left='93' width='80' height='90'/>
+    <box top='189' left='299' width='77' height='90'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked33.jpg' width='469' height='626'>
+    <box top='114' left='133' width='63' height='74'/>
+    <box top='123' left='261' width='55' height='66'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked34.jpg' width='796' height='597'>
+    <box top='218' left='268' width='78' height='91'/>
+    <box top='258' left='447' width='91' height='88'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked35.jpg' width='776' height='583'>
+    <box top='42' left='63' width='148' height='198'/>
+    <box top='204' left='291' width='88' height='90'/>
+    <box top='370' left='484' width='74' height='90'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked36.jpg' width='576' height='1280'>
+    <box top='317' left='75' width='239' height='242'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked37.jpg' width='1104' height='1472'>
+    <box top='474' left='353' width='463' height='604'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked38.jpg' width='1104' height='1472'>
+    <box top='390' left='363' width='423' height='498'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked39.jpg' width='720' height='1280'>
+    <box top='247' left='147' width='305' height='381'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked40.jpg' width='768' height='1024'>
+    <box top='201' left='192' width='269' height='324'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked41.jpg' width='1280' height='720'>
+    <box top='242' left='450' width='300' height='289'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked42.jpg' width='1200' height='800'>
+    <box top='198' left='497' width='300' height='285'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked43.jpg' width='600' height='800'>
+    <box top='143' left='168' width='207' height='240'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked44.jpg' width='600' height='800'>
+    <box top='229' left='205' width='155' height='202'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked45.jpg' width='600' height='800'>
+    <box top='205' left='231' width='145' height='169'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked46.jpg' width='960' height='1280'>
+    <box top='580' left='380' width='262' height='341'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked47.jpg' width='970' height='1296'>
+    <box top='483' left='321' width='317' height='354'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked48.jpg' width='768' height='1024'>
+    <box top='307' left='300' width='223' height='239'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked49.jpg' width='1600' height='1200'>
+    <box top='352' left='211' width='286' height='318'/>
+    <box top='428' left='678' width='167' height='210'/>
+    <box top='451' left='986' width='198' height='198'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked50.jpg' width='738' height='1024'>
+    <box top='292' left='188' width='363' height='421'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked51.jpg' width='750' height='1000'>
+    <box top='174' left='179' width='402' height='418'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked52.jpg' width='750' height='563'>
+    <box top='139' left='260' width='144' height='152'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked53.jpg' width='720' height='1280'>
+    <box top='468' left='210' width='299' height='305'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked54.jpg' width='648' height='1152'>
+    <box top='413' left='143' width='356' height='398'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked55.jpg' width='864' height='1152'>
+    <box top='442' left='248' width='310' height='352'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked56.jpg' width='961' height='1280'>
+    <box top='487' left='278' width='418' height='464'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked57.jpg' width='470' height='677'>
+    <box top='203' left='237' width='142' height='152'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked58.jpg' width='318' height='605'>
+    <box top='178' left='105' width='137' height='134'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked59.jpg' width='1280' height='960'>
+    <box top='360' left='259' width='131' height='144'/>
+    <box top='396' left='620' width='106' height='135'/>
+    <box top='292' left='853' width='218' height='239'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked60.jpg' width='1280' height='960'>
+    <box top='394' left='290' width='136' height='185'/>
+    <box top='399' left='590' width='116' height='124'/>
+    <box top='281' left='840' width='248' height='240'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked61.jpg' width='1280' height='960'>
+    <box top='416' left='302' width='131' height='137'/>
+    <box top='399' left='597' width='122' height='110'/>
+    <box top='267' left='844' width='227' height='231'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked62.jpg' width='1280' height='960'>
+    <box top='350' left='298' width='155' height='174'/>
+    <box top='345' left='648' width='121' height='158'/>
+    <box top='245' left='878' width='223' height='267'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked63.jpg' width='960' height='1280'>
+    <box top='223' left='356' width='215' height='303'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked64.jpg' width='960' height='1280'>
+    <box top='369' left='373' width='266' height='314'/>
+  </image>
+  <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked65.jpg' width='960' height='1280'>
+    <box top='422' left='396' width='175' height='209'/>
+  </image>
+</images>
+</dataset>
