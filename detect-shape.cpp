@@ -8,6 +8,27 @@
 using namespace dlib;
 using namespace std;
 
+
+
+inline std::vector<image_window::overlay_line> render_masked_face_detections (
+        const std::vector<full_object_detection>& dets,
+        const rgb_pixel color = rgb_pixel(0,255,0)
+    )
+    {
+        std::vector<image_window::overlay_line> lines;
+        for (unsigned long i = 0; i < dets.size(); ++i)
+        {
+
+            const full_object_detection& d = dets[i];
+
+            for (unsigned long j = 2; j < d.num_parts() ; ++j)
+            {
+                lines.push_back(image_window::overlay_line(d.part(j-1), d.part(j), color));
+            }
+            lines.push_back(image_window::overlay_line(d.part(d.num_parts()-1), d.part(1), color));
+        }
+        return lines;
+    }
 // ----------------------------------------------------------------------------------------
 
 int main(int argc, char** argv)
@@ -71,13 +92,13 @@ int main(int argc, char** argv)
         // Now let's view our face poses on the screen.
         win.clear_overlay();
         win.set_image(img);
-        win.add_overlay(render_face_detections(shapes));
+        win.add_overlay(render_masked_face_detections(shapes));
 
-        // We can also extract copies of each face that are cropped, rotated upright,
-        // and scaled to a standard size as shown here:
-        dlib::array<array2d<rgb_pixel> > face_chips;
-        extract_image_chips(img, get_face_chip_details(shapes), face_chips);
-        win_faces.set_image(tile_images(face_chips));
+        // // We can also extract copies of each face that are cropped, rotated upright,
+        // // and scaled to a standard size as shown here:
+        // dlib::array<array2d<rgb_pixel> > face_chips;
+        // extract_image_chips(img, get_face_chip_details(shapes), face_chips);
+        // win_faces.set_image(tile_images(face_chips));
 
         cout << "Hit any key to exit." << endl;
         cin.get();

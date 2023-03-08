@@ -114,8 +114,6 @@ int main(int argc, char** argv)
         // extremely high, but it's still doing quite good.  Moreover, if you
         // train it on one of the large face landmarking datasets you will
         // obtain state-of-the-art results, as shown in the Kazemi paper.
-        cout << "mean testing error:  "<< 
-            test_shape_predictor(sp, images_test, faces_test, get_interocular_distances(faces_test)) << endl;
 
         // Finally, we save the model to disk so we can use it later.
         serialize("shape_detector.dat") << sp;
