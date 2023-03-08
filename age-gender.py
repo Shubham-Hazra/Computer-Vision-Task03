@@ -64,7 +64,7 @@ for i in range(0, face_detections.shape[2]):
             else:
                 sex = "M"
         cv.rectangle(image, (startX, startY), (endX, endY), (255, 0, 0), 2)
-        cv.putText(image,age+" "+sex, (startX + 10, endY - 10), cv.FONT_HERSHEY_SIMPLEX,1.2, (0, 255, 0), 2)
+        cv.putText(image,sex+", "+age, (startX + 10, endY - 10), cv.FONT_HERSHEY_SIMPLEX,1, (0, 255, 0), 2)
 image_name = image_path.split("/")[-1]
 output_path = "../results/age-gender/" + image_name
 folders = os.listdir("../results")
