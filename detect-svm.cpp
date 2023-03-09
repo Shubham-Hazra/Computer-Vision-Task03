@@ -2,6 +2,7 @@
 #include <dlib/gui_widgets.h>
 #include <dlib/image_processing.h>
 #include <dlib/data_io.h>
+#include <dlib/image_transforms.h>
 
 #include <iostream>
 #include <fstream>
@@ -14,14 +15,8 @@ using namespace dlib;
 
 int main(int argc, char** argv)
 {  
-
     try
     {
-        // In this example we are going to train a face detector based on the
-        // small faces dataset in the examples/faces directory.  So the first
-        // thing we do is load that dataset.  This means you need to supply the
-        // path to this faces folder as a command line argument so we will know
-        // where it is.
         if (argc != 3)
         {
             cout << "Give the path to the model and path to the image as the argument to this" << endl;
@@ -50,6 +45,11 @@ int main(int argc, char** argv)
         win.clear_overlay();
         win.set_image(img);
         win.add_overlay(dets, rgb_pixel(255,0,0));
+        for (int i = 0; i < dets.size(); ++i)
+        {
+            draw_rectangle(img, dets[i], rgb_pixel(255,0,0),10);
+        }
+        save_jpeg(img, "detected.jpg");
         cout << "Hit any key to exit." << endl;
         cin.get();
     }

@@ -2,6 +2,7 @@
 #include <dlib/dnn.h>
 #include <dlib/data_io.h>
 #include <dlib/image_processing.h>
+#include <dlib/image_transforms.h>
 #include <dlib/gui_widgets.h>
 
 
@@ -73,7 +74,11 @@ int main(int argc, char** argv) try
         win.set_image(img);
         for (auto&& d : dets)
             win.add_overlay(d);
-
+        for (int i = 0; i < dets.size(); ++i)
+        {
+            draw_rectangle(img, dets[i], rgb_pixel(255,0,0),10);
+        }
+        save_jpeg(img, "detected.jpg");
         cout << "Hit any key to exit." << endl;
         cin.get();
     }
