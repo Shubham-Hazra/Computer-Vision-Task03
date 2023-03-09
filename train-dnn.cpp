@@ -36,7 +36,7 @@ int main(int argc, char** argv) try
     if (argc != 3)
     {
         cout << "Give the path to the directory and path to training.xml as the argument to this" << endl;
-        cout << "   ./dnn_mmod_ex <path_to_directory> <path_to_training.xml>" << endl;
+        cout << "   ./train-dnn <path_to_directory> <path_to_training.xml>" << endl;
         cout << endl;
         return 0;
     }
@@ -102,7 +102,7 @@ int main(int argc, char** argv) try
     trainer.set_learning_rate(0.1);
     trainer.be_verbose();
     trainer.set_synchronization_file("mmod_sync", std::chrono::minutes(3));
-    trainer.set_iterations_without_progress_threshold(300);
+    trainer.set_iterations_without_progress_threshold(80);
 
 
     // Now let's train the network.  We are going to use mini-batches of 150
@@ -141,7 +141,7 @@ int main(int argc, char** argv) try
     // on the training data.  It will print the precision, recall, and then average precision.
     // This statement should indicate that the network works perfectly on the
     // training data.
-    cout << "training results: " << test_object_detection_function(net, images_train, face_boxes_train) << endl;
+    // cout << "training results: " << test_object_detection_function(net, images_train, face_boxes_train) << endl;
 
     // If you are running many experiments, it's also useful to log the settings used
     // during the training experiment.  This statement will print the settings we used to
@@ -158,12 +158,8 @@ int main(int argc, char** argv) try
         win.set_image(img);
         for (auto&& d : dets)
             win.add_overlay(d);
-        cout << "Press n to process the next image..." << endl;
-        cout << "Press any other key to exit." << endl;
-        if (cin.get() == 'n')
-            continue;
-        else
-            break;
+        cout << "Hit enter to process the next image..." << endl;
+        cin.get();
     }
     return 0;
 

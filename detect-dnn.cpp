@@ -37,14 +37,14 @@ int main(int argc, char** argv) try
     {
         cout << "Call this program like this:" << endl;
         cout << "./detect-dnn <path_to_model> <path_to_image>" << endl;
-        cout << "e.g.    ./detect-dnn face_detector.dat <path_to_image>" << endl;
+        cout << "e.g.    ./detect-dnn ann.dat <path_to_image>" << endl;
         return 0;
     }
 
     if (argc > 3)
     {
         cout << "You gave too many arguments.  Just give the path to the face detector and the path to the image e.g." << endl;
-        cout << "./detect-dnn face_detector.dat <path_to_image>" << endl;
+        cout << "./detect-dnn ann.dat <path_to_image>" << endl;
         return 0;
     }
 

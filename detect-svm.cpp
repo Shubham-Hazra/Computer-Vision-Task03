@@ -25,8 +25,8 @@ int main(int argc, char** argv)
         if (argc != 3)
         {
             cout << "Give the path to the model and path to the image as the argument to this" << endl;
-            cout << "   ./dnn_mmod_ex <path_to_svm_model> <path_to_image>" << endl;
-            cout << "e.g.   ./dnn_mmod_ex masked01.svm <path_to_image>" << endl;
+            cout << "   ./detect-svm <path_to_svm_model> <path_to_image>" << endl;
+            cout << "e.g.   ./detect-svm masked01.svm <path_to_image>" << endl;
             cout << endl;
             return 0;
         }

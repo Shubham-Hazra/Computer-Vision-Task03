@@ -31,7 +31,7 @@ int main(int argc, char** argv)
         if (argc != 3)
         {
             cout << "Give the path to the directory and path to training.xml as the argument to this" << endl;
-            cout << "   ./dnn_mmod_ex <path_to_directory> <path_to_training.xml>" << endl;
+            cout << "   ./train-shape <path_to_directory> <path_to_training.xml>" << endl;
             cout << endl;
             return 0;
         }
@@ -106,8 +106,8 @@ int main(int argc, char** argv)
         // distances.  Here we are causing the output to scale each face's
         // distances by the interocular distance, as is customary when
         // evaluating face landmarking systems.
-        cout << "mean training error: "<< 
-            test_shape_predictor(sp, images_train, faces_train, get_interocular_distances(faces_train)) << endl;
+        // cout << "mean training error: "<< 
+        //     test_shape_predictor(sp, images_train, faces_train, get_interocular_distances(faces_train)) << endl;
 
         // The real test is to see how well it does on data it wasn't trained
         // on.  We trained it on a very small dataset so the accuracy is not
@@ -116,7 +116,7 @@ int main(int argc, char** argv)
         // obtain state-of-the-art results, as shown in the Kazemi paper.
 
         // Finally, we save the model to disk so we can use it later.
-        serialize("shape_detector.dat") << sp;
+        serialize("shape_predictor.dat") << sp;
     }
     catch (exception& e)
     {

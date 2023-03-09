@@ -25,7 +25,7 @@ int main(int argc, char** argv)
         if (argc != 3)
         {
             cout << "Give the path to the directory and path to training.xml as the argument to this" << endl;
-            cout << "   ./dnn_mmod_ex <path_to_directory> <path_to_training.xml>" << endl;
+            cout << "   ./train-svm <path_to_directory> <path_to_training.xml>" << endl;
             cout << endl;
             return 0;
         }
