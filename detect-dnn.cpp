@@ -48,27 +48,13 @@ int main(int argc, char** argv) try
         cout << "./detect-dnn ann.dat <path_to_image>" << endl;
         return 0;
     }
-
-
     net_type net;
     deserialize(argv[1]) >> net;  
-
     image_window win;
     for (int i = 2; i < argc; ++i)
     {
         matrix<rgb_pixel> img;
         load_image(img, argv[i]);
-
-        // Upsampling the image will allow us to detect smaller faces but will cause the
-        // program to use more RAM and run longer.
-        // while(img.size() < 1800*1800)
-        //     pyramid_up(img);
-
-        // Note that you can process a bunch of images in a std::vector at once and it runs
-        // much faster, since this will form mini-batches of images and therefore get
-        // better parallelism out of your GPU hardware.  However, all the images must be
-        // the same size.  To avoid this requirement on images being the same size we
-        // process them individually in this example.
         auto dets = net(img);
         win.clear_overlay();
         win.set_image(img);
