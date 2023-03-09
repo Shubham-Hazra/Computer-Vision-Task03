@@ -12,7 +12,6 @@
   </image>
   <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked03.jpg' width='782' height='795'>
     <box top='166' left='323' width='180' height='197'/>
-    <box top='267' left='328' width='1' height='1'/>
   </image>
   <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked04.jpg' width='752' height='960'>
     <box top='177' left='240' width='222' height='342'/>
@@ -32,7 +31,6 @@
   </image>
   <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked08.jpg' width='576' height='768'>
     <box top='218' left='153' width='246' height='381'/>
-    <box top='437' left='138' width='17' height='3'/>
   </image>
   <image file='/mnt/c/Users/shubh/onedrive/desktop/cs763/Task_03/data/masked/masked09.jpg' width='576' height='768'>
     <box top='92' left='195' width='203' height='271'/>
