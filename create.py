@@ -116,7 +116,11 @@ elif choice == "2":
         path = input("Enter the path: ")
         folder_path = path
         for image_path in os.listdir(folder_path):
-            image_path = folder_path + "/" + image_path
-            synthesize_image(image_path)
+            if image_path.endswith(".jpg"):
+                image_path = folder_path + "/" + image_path
+                synthesize_image(image_path)
+            else:
+                continue
+
 
 
